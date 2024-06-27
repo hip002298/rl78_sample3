@@ -1,0 +1,23 @@
+;					2024/04/17 14:40:11;
+;   From:C:\Users\h_umemura\My Documents\Applilet EZ PL for RL78\Project\RL78_Sample3\RL78_Sample3.loc
+;     To:C:\Users\h_umemura\My Documents\Applilet EZ PL for RL78\Project\RL78_Sample3\PANEL.inc
+;
+;Input
+I_08	DGIN	L,P2.0,10
+I_10	DGIN	L,P2.1,10
+I_12	DGIN	L,P2.2,10
+I_14	DGIN	L,P5.1,10
+I_16	DGIN	L,P5.2,10
+I_18	DGIN	L,P5.3,10
+I_20	DGIN	L,P5.4,10
+I_22	DGIN	L,P5.5,10
+;Process
+1508	 OFF	R
+1510	 OFF	R
+1512	 OFF	R
+;Output
+O_08	 DGO	L,P3.0
+O_10	 DGO	L,P3.1
+O_12	 DGO	L,P3.2
+
+ê≥èÌÇ…èIóπÇµÇ‹ÇµÇΩÅB

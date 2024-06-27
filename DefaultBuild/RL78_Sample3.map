@@ -1,0 +1,74 @@
+Renesas Optimizing Linker (W3.06.00 )             27-Jun-2024 11:39:36
+
+*** Options ***
+
+-subcommand=DefaultBuild\RL78_Sample3.clnk
+-Input=DefaultBuild\main.obj
+-Input=DefaultBuild\common.obj
+-Input=DefaultBuild\timer.obj
+-Input=DefaultBuild\int.obj
+-Input=DefaultBuild\port.obj
+-Input=DefaultBuild\watchdogtimer.obj
+-Input=DefaultBuild\system.obj
+-Input=DefaultBuild\systeminit.obj
+-Input=DefaultBuild\panel.obj
+-Input=DefaultBuild\digitalio.obj
+-Input=DefaultBuild\cstart.obj
+-Input=DefaultBuild\opt_byte.obj
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F1058A.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=DefaultBuild\RL78_Sample3.abs
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\lib\rl78em4s.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\lib\malloc_n.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\lib\rl78em4r.lib
+-OCDBG=04
+-USER_OPT_BYTE=FFFFF0
+-LISt=DefaultBuild\RL78_Sample3.map
+-AUTO_SECTION_LAYOUT
+-ROm=.data=.dataR
+-ROm=.sdata=.sdataR
+-NOMessage
+-MEMory=High
+-NOLOgo
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+.vect
+                                  00000000  0000007f        80   0
+.constf
+                                  00000080  00000080         0   2
+.sdata
+                                  00000080  00000080         0   2
+.data
+                                  00000082  00000084         3   2
+.option_byte
+                                  000000c0  000000c3         4   1
+.security_id
+                                  000000c4  000000cd         a   1
+.RLIB
+                                  000000c4  000000c4         0   1
+.SLIB
+                                  000000c4  000000c4         0   1
+.text
+                                  000000ce  00000150        83   1
+.textf
+                                  00000151  0000051f       3cf   1
+.text_AT10C0
+                                  000010c0  000010c3         4   1
+.const
+                                  00002000  00002000         0   2
+.bss
+                                  000ff900  000ff918        19   2
+.dataR
+                                  000ff91a  000ff91c         3   2
+.sbss
+                                  000ffe20  000ffe28         9   2
+.sdataR
+                                  000ffe2a  000ffe2a         0   2
